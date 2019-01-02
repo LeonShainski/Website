@@ -5,6 +5,7 @@
 }
 
 .title-main{
+  z-index: 5;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -13,7 +14,7 @@
 }
 .background-image{
   position: fixed;
-  background: url("/img/Parallax-Background-Dark-07.jpg");
+  background: url("/img/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
