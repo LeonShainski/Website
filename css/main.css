@@ -27,6 +27,10 @@
   position: fixed;
   bottom: 0px;
 }
+.front-pic img{
+  max-width: 100%;
+
+}
 .s-inner{
   text-align:center;
   position: relative;
