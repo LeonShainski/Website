@@ -26,10 +26,11 @@
   z-index:3;
   position: fixed;
   bottom: 0px;
+  left:1%;
+  width:18%;
 }
 .front-pic img{
   max-width: 100%;
-
 }
 .s-inner{
   text-align:center;
@@ -65,5 +66,13 @@ img.Gears{
 }
 h1 {
   color: white;
+
+}
+@media only screen and (min-width: 768px) {
+  .front-image{
+    width: 50%;
+    bottom: -20px;
+    left: 0;
+  }
 
 }

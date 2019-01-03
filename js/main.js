@@ -44,4 +44,21 @@ jQuery(document).ready(function($) {
  .addTo(controller);
 
 
+
+
+var tlMainScrollOut = new TimelineMax()
+  .add([
+      TweenMax.to(bgImage,8,{autoAlpha:0}),
+      TweenMax.from('section2',4,{autoAlpha:0}),
+      TweenMax.to(frImage,8, {autoAlpha:0}),
+  ]);
+
+ var section2 = new ScrollMagic.Scene({
+    triggerElement:'.section2',
+    triggerHook:0,
+    duration: '40%'})
+
+  .setTween(tlMainScrollOut)
+  .setPin('.section2')
+  .addTo(controller);
 });
