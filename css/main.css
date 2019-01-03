@@ -14,7 +14,7 @@
 }
 .background-image{
   position: fixed;
-  background: url("/img/background1.jpg");
+  background: url("/img/background3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -26,5 +26,33 @@
   z-index:3;
   position: fixed;
   bottom: 0px;
+}
+.s-inner{
+  text-align:center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scroll-line{
+  height:80px;
+  border-left: #333 dashed 2px;
+  position: relative;
+  left: 50%;
+
+}
+
+.scroll-line h6 {
+  color: white;
+  position:relative;
+  transform: translateX(-50%) rotate(90deg);
+  display: inline-block;
+  top: 78px;
+}
+
+.top-titles{
+  color: white;
+}
+h1 {
+  color: white;
 
 }
