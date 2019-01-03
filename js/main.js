@@ -29,10 +29,9 @@ jQuery(document).ready(function($) {
   .add([
     TweenMax.to(frImage,4,{scale:2, y: 150, x:"-45%", ease:Power1.easeInOut}),
     TweenMax.to(titleMain,4,{autoAlpha:0}),
-    TweenMax.to(bgImage,4,{scale:2, ease:Power1.easeInOut})
+    TweenMax.to(bgImage,4,{scale:2, ease:Power1.easeInOut}),
 
-
- ])
+ ]);
 
  //pin the scene
   var tweenHome = new ScrollMagic.Scene({
