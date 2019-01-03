@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
   var tweenHome = new ScrollMagic.Scene({
     triggerElement: '.pin-scene',
     triggerHook: 0,
-    duration: '130%'})
+    duration: '180%'})
 
  .setTween(tlMainScroll)
  .setPin('.pin-scene')
