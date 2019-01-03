@@ -14,7 +14,7 @@
 }
 .background-image{
   position: fixed;
-  background: url("/img/background3.jpg");
+  background: url("/img/background4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -26,7 +26,7 @@
   z-index:3;
   position: fixed;
   bottom: 0px;
-  left:1%;
+  left:-5s%;
   width:18%;
 }
 .front-pic img{
