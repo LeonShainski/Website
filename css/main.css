@@ -49,8 +49,15 @@
   top: 78px;
 }
 
+img.Gears{
+  width: 150px;
+}
+
 .top-titles{
   color: white;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: center;
 }
 h1 {
   color: white;
