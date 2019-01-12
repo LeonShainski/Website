@@ -84,3 +84,29 @@ img.Gears{
 .s-inner h4 {
   position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+.slides {
+  width: 400px;
+  height: 400px;
+  border: 1px solid red;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides img {
+  transform: translateY(400px);
+  transition: transform .3s;
+}
+
+.slides:hover > img {
+  transform: translateY(0px);
+}
