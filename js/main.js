@@ -37,7 +37,7 @@ jQuery(document).ready(function($) {
   var tweenHome = new ScrollMagic.Scene({
     triggerElement: '.pin-scene',
     triggerHook: 0,
-    duration: '180%'})
+    duration: '130%'})
 
  .setTween(tlMainScroll)
  .setPin('.pin-scene')
@@ -51,7 +51,7 @@ var tlMainScrollOut = new TimelineMax()
       TweenMax.to(bgImage,8,{autoAlpha:0}),
       TweenMax.from('section2',4,{autoAlpha:0}),
       TweenMax.to(frImage,8, {autoAlpha:0}),
-  ]);
+    ]);
 
  var section2 = new ScrollMagic.Scene({
     triggerElement:'.section2',

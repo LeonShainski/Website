@@ -33,7 +33,7 @@
   max-width: 100%;
 }
 .s-inner{
-  text-align:center;
+  text-align: center;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -48,7 +48,7 @@
 
 .scroll-line h6 {
   color: white;
-  position:relative;
+  position: relative;
   transform: translateX(-50%) rotate(90deg);
   display: inline-block;
   top: 78px;
@@ -59,13 +59,18 @@ img.Gears{
 }
 
 .top-titles{
-  color: grey;
+  color: lightgrey;
   font-size: 15px;
   letter-spacing: 2px;
   text-align: center;
+  -webkit-text-stroke: 0.2px black
 }
-h1 {
+.title-main h1 {
   color: white;
+  -webkit-text-stroke: 0.1px black
+  position: relative;
+  transform: translateX(+7%);
+
 
 }
 @media only screen and (min-width: 768px) {
@@ -75,4 +80,7 @@ h1 {
     left: 0;
   }
 
+}
+.s-inner h4 {
+  position: relative;
 }
