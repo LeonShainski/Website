@@ -10,21 +10,47 @@
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animatedtext.css">
+
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
   <body class="index2-body">
-    <section>
-    <h1>Hello</h1>
+    <section class="animated-text-secction">
+      <h1 class="ml8">
+        <span class="letters-container">
+          <button class="button-gears"><a href="index.html"><span class="letters letters-left">LSS<a></span></button>
+        </span>
+        <span class="circle circle-white"></span>
+        <span class="circle circle-dark"></span>
+        <span class="circle circle-container"><span class="circle circle-dark-dashed"></span></span>
+      </h1>
+
+
+    <div class="animated-text">
+    <h1 class="ml5">
+    <span class="text-wrapper">
+    <span class="line line1"></span>
+    <span class="letters letters-left">I Am the Drone</span>
+    <span class="letters letters-right">You're Looking For</span>
+    <span class="line line2"></span>
+    </span>
+  </h1>
+</div>
+
+
     </section>
     <section>
       <div class="slides">
-      <img src="https://picsum.photos/400/400/?image=10">
       <img src="https://picsum.photos/400/400/?image=10">
       </div>
     </section>
@@ -34,6 +60,7 @@
     <section clsss="info1">
       <h2>The Title </h2>
       <p>Some Text goes here, lorem ipsum</p>
+      <ul> Frame works I know:</ul>
       <a href="#" class="info-link"> Learn More </a>
     </section>
     <figure class="figure1">
@@ -59,5 +86,6 @@
 
 
   </main>
+  <script src="js/main.js"></script>
   </body>
 </html>
