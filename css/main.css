@@ -96,15 +96,6 @@ img.Gears{
   position: relative;
 }
 
-
-
-
-
-
-
-
-
-
 .slides {
   width: 400px;
   height: 400px;
@@ -112,14 +103,30 @@ img.Gears{
   overflow: hidden;
 }
 
-.slides img {
+.slides img{
   transform: translateY(400px);
-  transition: transform .3s;
+  transition: transform 3s;
 }
 
-.slides:hover > img {
+.slides:hover > img{
   transform: translateY(0px);
 }
+.slides2 { /*this is not necessary, it was just testing*/
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides2 img{
+  transform: translateY(400px);
+  transition: transform 0.3s;
+}
+
+.slides2:hover > img{
+  transform: translateY(0px);
+}
+
 
 
 
