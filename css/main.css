@@ -73,10 +73,9 @@ img.Gears{
 
 .top-titles{
   color: lightgrey;
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 2px;
   text-align: center;
-  -webkit-text-stroke: 0.2px black
 }
 .title-main h1 {
   color: white;
@@ -180,8 +179,4 @@ img.Gears{
 .info-link {
   text-decoration: none;
   color: #d80;
-}
-
-.header {
-  color: #781C2E;
 }
