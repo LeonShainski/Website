@@ -7,7 +7,7 @@
   position: relative;
   font-weight: 300;
   font-size: 4.5em;
-  color: #402d2d;
+  color: #781C2E;
 }
 
 .ml5 .text-wrapper {
@@ -27,7 +27,7 @@
   margin: auto;
   height: 3px;
   width: 100%;
-  background-color: #402d2d;
+  background-color: #781C2E;
   transform-origin: 0.5 0;
 }
 
@@ -77,7 +77,7 @@ h1.ml8 {
   line-height: 0.7em;
   right: -0.77em;
   top: -0.23em;
-  color: darkorange;
+  color: #781C2E;
 }
 
 .ml8 .bang {
