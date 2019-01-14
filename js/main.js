@@ -161,3 +161,18 @@ anime.timeline({loop: true})
     easing: "linear",
     loop: true
   });
+
+//Back to top button animation
+
+  const button = document.querySelector('.btn');
+  const scrollElement = window.document.scrollingElement || window.document.body || window.document.documentElement;
+
+  button.addEventListener('click', () => {
+    // use anime.js
+    anime({
+      targets: scrollElement,
+      scrollTop: 0,
+      duration: 500,
+      easing: 'easeInOutQuad'
+    });
+  });
