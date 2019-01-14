@@ -1,3 +1,4 @@
+
 .full-height {
   height: 100vh;
   width: 100vw;
@@ -11,6 +12,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
   mix-blend-mode: hard-light;
+
 
 }
 .background-image{
@@ -119,7 +121,7 @@ img.Gears{
 }
 
 .slides2 img{
-  transform: translateY(400px);
+  transform: translateX(400px);
   transition: transform 0.3s;
 }
 
@@ -178,4 +180,8 @@ img.Gears{
 .info-link {
   text-decoration: none;
   color: #d80;
+}
+
+.header {
+  color: #781C2E;
 }

@@ -42,6 +42,10 @@ h1, p {
     grid-column: 1 / -1;
     /* needed for the floated layout */
     clear: both;
+
+
+
+
   }
 
 }
@@ -54,6 +58,7 @@ h1, p {
   font-size: 150%;
   /* needed for the floated layout*/
   margin-bottom: 10px;
+
 }
 
 /* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
@@ -62,4 +67,7 @@ h1, p {
     width: auto;
     margin: 0;
   }
+}
+.wrapper header1{
+  color: #781C2E;
 }
